@@ -1,5 +1,7 @@
 
 // pass by value
+// primitive value
+// do not changes the value of the variable
 function changeValue(x) {
     x = 10;
     console.log("Inside function: " + x); 
@@ -10,6 +12,8 @@ function changeValue(x) {
   console.log("Outside function: " + a); 
   
 // pass by reference
+// non- primitive value
+// changes the value of the variable
   function modifyObject(obj) {
     obj.name = "John"; 
     obj.age = 30;
